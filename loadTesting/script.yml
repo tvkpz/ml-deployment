@@ -1,0 +1,27 @@
+# Thank you for trying serverless-artillery!
+# This default script is intended to get you started quickly.
+# There is a lot more that Artillery can do.
+# You can find great documentation of the possibilities at:
+# https://artillery.io/docs/
+config:
+  # this hostname will be used as a prefix for each URI in the flow unless a complete URI is specified
+  target: "https://6c2ovwlvg5.execute-api.ap-southeast-1.amazonaws.com/test1"
+  phases:
+    - duration: 10
+      arrivalRate: 2
+    - duration: 60
+      arrivalRate: 5
+      rampTo: 50
+    - duration: 300
+      arrivalRate: 50
+  plugins:
+    - cloudwatch:
+	namespace: test2Namespace
+scenarios:
+  -
+    flow:
+      - log: "New virtual user running"
+      - post:
+          url: "/autopilot-gateway"
+	  json:
+	    data: "0,53,housemaid,married,basic.4y,no,no,no,telephone,may,mon,261,1,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0"
