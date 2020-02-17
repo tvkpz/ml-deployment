@@ -4,7 +4,7 @@ Elastic Inference (EI) service allows you to flexibly add a right sized GPU acce
 
 Attaching an accelerator dynamically to a deployment instance may sound limiting in terms of increasing the latency of response. Use the following set of instructions to verify that there is no increase in latency although the EI accelerator is network attached and not connected through PCIe bus.
 
-For this EI Benchmark we will deploy the model to a `p2.xlarge` EC2 instance using tensorflow serving and compare it with a deployment on an `EI attached t2.medium` instance.
+For this EI Benchmark we will deploy the model to a `p2.xlarge` EC2 instance using tensorflow serving and compare it with a deployment on an `EI attached t3.xlarge` (you can choose a lower spec instance) instance.
 
 
 ## EC2 GPU Instance
