@@ -1,0 +1,12 @@
+
+# Batch Transform for Offline Deployments
+
+This repo contains example code for using the Sagemaker Batch Transform feature for offline deployments. The following scenarios are covered
+
+- [Batch Transform Basics](introduction_to_batch_transform) This folder has example code to show how to use Amazon SageMaker batch transform with built-in algorithms and with a bring your own algorithm container.
+- [Batch Transform Associate Predictions with Input](batch_transform_associate_predictions_with_input) When making predictions on a large dataset, you can exclude attributes that aren't needed for prediction. After the predictions have been made, you can associate some of the excluded attributes with those predictions or with other input data in your report. By using batch transform to perform these data processing steps, you can often eliminate additional preprocessing or postprocessing. You can use input files in JSON and CVS format only.
+- [Batch Transform for large datasets in clusters](tensorflow_cifar-10_with_inference_script) When it is time to set up an inference workflow for large datasets, it may be necessary to perform highly performant batch inference using a cluster. This folder contains code that examines how to do these tasks with TensorFlow in Amazon SageMaker, with emphasis on batch inference.
+- [Converting CSV format to TFRecord Format and its usage in formating for Batch Inference](working_with_tfrecords) This folder has code that demonstrates how to convert CSV file to TFRecord format, use it for training and batch inference.
+- [Highly Performant Batch Inference using pre and post-processing feature of TF Serving](tensorflow_open-images_jpg) This folder has example code to show how to use SageMaker batch transform to get inferences on a large datasets of images using TensorFlow Serving. Usage of pre-processing and post-processing feature of the TensorFlow Serving container on Amazon SageMaker is shown so that the TensorFlow model can make inferences directly on data in S3, and save post-processed inferences to S3.
+- [Highly Performant Batch Inference using pre and post-processing feature of TF Serving on TFRecord Data](tensorflow_open-images_tfrecord) This folder container code for batch transform on large datasets in TFRecord format.
+- [Making MXNet models work with Batch Transform](mxnet_batch_transform) This fodler has code to show how to use the MXNet framework with Batch transform.
