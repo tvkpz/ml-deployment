@@ -10,3 +10,11 @@ These examples focus on the Amazon SageMaker Neo which allows you to compile mod
 - [Deploying pre-trained PyTorch vision models](pytorch_torchvision)
 - [Distributed TensorFlow](tensorflow_distributed_mnist)
 - [Predicting Customer Churn](xgboost_customer_churn)
+
+
+### Related Resources
+
+- [TVM Project](https://github.com/apache/incubator-tvm)
+- [Treelite](https://github.com/dmlc/treelite)
+- [Neo](https://github.com/neo-ai/neo-ai-dlr)
+
