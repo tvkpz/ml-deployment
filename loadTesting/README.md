@@ -46,7 +46,7 @@ slsart script
 ```
 This command creates a file named script.yml in your local directory. Open the file for editing and add the target URL.
 
-Please refer to [AWS Machine Learning Blog] (https://aws.amazon.com/blogs/machine-learning/load-test-and-optimize-an-amazon-sagemaker-endpoint-using-automatic-scaling/) for more details.
+Please refer to [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/load-test-and-optimize-an-amazon-sagemaker-endpoint-using-automatic-scaling/) for more details.
 
 Next, you can run the load testing 
 
