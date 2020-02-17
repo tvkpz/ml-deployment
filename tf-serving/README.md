@@ -1,0 +1,5 @@
+
+# Tensorflow Serving
+
+- [Basic Tf Serving](tensorflow_serving_container) The SageMaker TensorFlow Serving Container makes it easy to deploy trained TensorFlow models to a SageMaker Endpoint without the need for any custom model loading or inference code. The code shows how deploy one or more pre-trained models from TensorFlow Hub to a SageMaker Endpoint using the SageMaker Python SDK, and then use the model(s) to perform inference requests.
+- [Tf Serving with Elastic Inference](tensorflow_serving_using_elastic_inference_with_your_own_model) This folder has code where the main objective is to show how to create an endpoint, backed by an Elastic Inference, to serve our pre-trained TensorFlow Serving model for predictions. With a more efficient cost per performance, Amazon Elastic Inference can prove to be useful for those looking to use GPUs for higher inference performance at a lower cost.
