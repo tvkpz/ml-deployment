@@ -1,6 +1,6 @@
 # Sagemaker Hosting: Own Code and Own Container
 
-You need to create your own container if you are not using Sagemaker pre-built algorithms and need additional libraries / new frameworks for your inference to work. So you need to build your own container
+You need to create your own container if you are not using Sagemaker pre-built algorithms and need additional libraries / new frameworks for your inference to work.
 
 ### Inference Code
 
@@ -96,7 +96,7 @@ def transformation():
 
 ### Hosting APIs 
 
-Hosting involves reponding to inference requests that come in via HTTP. In this example, we use our recommended Python serving stack to provide robust and scalable serving of inference requests:
+Hosting involves reponding to inference requests that come in via HTTP. In this example, we used our recommended Python serving stack to provide robust and scalable serving of inference requests:
 
 ![Request serving stack](stack.png)
 
@@ -233,7 +233,7 @@ docker push ${fullname}
 ```
 
 * __`<inference_specific_dir>`__ is the directory which contains the files that will be installed in the container.
-* __`local_test`__ is a directory that shows how to test your new container on any computer that can run Docker, including an Amazon SageMaker notebook instance. Using this method, you can quickly iterate using small datasets to eliminate any structural bugs before you use the container with Amazon SageMaker. Optional dir for which you can find example.
+* __`local_test`__ is a directory that shows how to test your new container on any computer that can run Docker, including an Amazon SageMaker notebook instance. Using this method, you can quickly iterate using small datasets to eliminate any structural bugs before you use the container with Amazon SageMaker. Optional dir for which you can find example in `byoc_cc` folder.
 
 In this simple application, we only install five files in the container. You may only need that many or, if you have many supporting routines, you may wish to install more. These five show the standard structure of our Python containers, although you are free to choose a different toolset and therefore could have a different layout. If you're writing in a different programming language, you'll certainly have a different layout depending on the frameworks and tools you choose.
 
