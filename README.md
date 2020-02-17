@@ -1,6 +1,6 @@
 # ml-deployment
 
-Code repository that was started for ML Innovate 2020 on the topic of ML Deployment. Watch out for this repo as more mode gets added to this repo to help developers deploy their Ml Solutions on AWS.
+Code repository that was started for ML Innovate 2020 on the topic of ML Deployment. Watch out for this repo as more useful code gets added to this repo to help developers deploy their ML Solutions on AWS.
 
 Most of the code in this repository is adapted from the [aws-sagemeaker-examples](https://github.com/awslabs/amazon-sagemaker-examples) repo.
 
