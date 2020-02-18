@@ -19,7 +19,7 @@ The topics covered are:
 
 ## Things to To
 
-While the above topics have some meterials and on going topics, expect more example code on the following topics to be included:
+While the above topics have some meterials and are ongoing topics, expect more example code on the following topics to be included:
 
 - Deployment in K8s: [EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html) | [EKS-docs](https://github.com/awsdocs/amazon-eks-user-guide/blob/master/doc_source/doc-history.md) | [Sagemaker Operators for K8s](https://github.com/aws/amazon-sagemaker-operator-for-k8s) | [EKS Workshop](https://eksworkshop.com/)
 - Model Governance: [Version Code | Version Data | Version Model](https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf)
